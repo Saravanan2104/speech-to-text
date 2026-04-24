@@ -19,7 +19,7 @@ print('-'*50)
 
 
 
-model_id = r"C:\Users\Saravanan\Desktop\genai_class\huggingFace\speech-to-text\model"
+model_id = r".\model"
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
